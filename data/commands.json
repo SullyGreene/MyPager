@@ -1,0 +1,20 @@
+{
+    "run": {
+      "sys_check": "run.sys_check",
+      "sys.check": "run.sys_check",
+      "check": "run.sys_check",
+      "update": "run.update"
+    },
+    "install": {
+      "loggin": "install.loggin",
+      "snapp": "install.snapp"
+    },
+    "menu": {
+      "1": "run.sys_check",
+      "2": "install.loggin",
+      "3": "install.snapp",
+      "4": "run.update",
+      "5": "quit"
+    }
+  }
+  
