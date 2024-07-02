@@ -27,16 +27,32 @@ def run_script(script_command):
         type_out(f"🚨 Script '{script_name}' does not have a 'main' function!")
 
 def show_menu():
+    with open('data/show_menu.json', 'r', encoding='utf-8') as file:
+        menu_options = json.load(file)['menu']
+    
     type_out("📟 MyPager Menu:")
-    type_out("1️⃣  Systems Check - run.sys_check")
-    type_out("2️⃣  Install Loggin - install.loggin")
-    type_out("3️⃣  Install Snapp - install.snapp")
-    type_out("4️⃣  Update - run.update")
-    type_out("5️⃣  🚪 Quit")
+    for option in menu_options:
+        type_out(f"{option['key']}️⃣  {option['description']}")
 
 def load_commands():
-    with open('commands.json', 'r') as file:
+    with open('commands.json', 'r', encoding='utf-8') as file:
         return json.load(file)
+
+def load_auto_start():
+    try:
+        with open('data/auto_start.json', 'r', encoding='utf-8') as file:
+            return json.load(file).get("auto_start", [])
+    except FileNotFoundError:
+        return []
+    except json.JSONDecodeError:
+        type_out("🚨 Failed to decode 'data/auto_start.json'. Check the file format.")
+        return []
+
+def auto_start():
+    auto_start_commands = load_auto_start()
+    for command in auto_start_commands:
+        type_out(f"⏩ Auto-starting {command}...")
+        run_script(command)
 
 def menu_mode():
     commands = load_commands()
@@ -90,4 +106,5 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         direct_mode()
     else:
+        auto_start()
         menu_mode()
