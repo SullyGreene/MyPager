@@ -51,16 +51,30 @@
   </p>
 </details>
 
-## Features
+## Installation
 
 <details>
-  <summary><strong>Click to expand</strong> 🌟</summary>
+  <summary><strong>Click to expand</strong> 📦</summary>
   <br>
-  <ul>
-    <li><strong>Easy Script Management</strong>: Run and install scripts effortlessly. 🛠️</li>
-    <li><strong>Interactive CLI</strong>: User-friendly interface to manage your scripts. 💻</li>
-    <li><strong>Customizable</strong>: Easily extend and customize to fit your needs. 🎨</li>
-  </ul>
+  To install MyPager, follow these steps:
+  <ol>
+    <li><strong>Clone the repository:</strong></li>
+  </ol>
+  <pre>
+  <code>
+  git clone https://github.com/SullyGreene/MyPager.git
+  cd MyPager
+  </code>
+  </pre>
+  <ol start="2">
+    <li><strong>Install dependencies:</strong></li>
+  </ol>
+  <pre>
+  <code>
+  pip install -r requirements.txt
+  python run run/sys_check.py
+  </code>
+  </pre>
 </details>
 
 
