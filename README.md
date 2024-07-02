@@ -50,13 +50,10 @@
 
 ## About
 
-<details>
-  <summary><strong>Click to expand</strong> 📜</summary>
-  <br>
-  <p align="center">
-    <strong>MyPager</strong> is a Python command-line interface (CLI) tool designed to simplify the process of running and installing scripts. Whether you're a developer looking to streamline your workflow or a hobbyist wanting to automate tasks, MyPager has got you covered! 🛠️🚀
-  </p>
-</details>
+<p align="center">
+  <strong>MyPager</strong> is a Python command-line interface (CLI) tool designed to simplify the process of running and installing scripts. Whether you're a developer looking to streamline your workflow or a hobbyist wanting to automate tasks, MyPager has got you covered! 🛠️🚀
+</p>
+
 
 ## Features
 
@@ -79,14 +76,14 @@
   <ol>
     <li><strong>Clone the repository:</strong></li>
   </ol>
-  <pre><code>
+  <pre><code class="language-bash">
   git clone https://github.com/SullyGreene/MyPager.git
   cd MyPager
   </code></pre>
   <ol start="2">
     <li><strong>Install dependencies:</strong></li>
   </ol>
-  <pre><code>
+  <pre><code class="language-bash">
   pip install -r requirements.txt
   python run run/sys_check.py
   </code></pre>
@@ -100,8 +97,8 @@
   <summary><strong>Click to expand</strong> 🎉</summary>
   <br>
   Run the interactive terminal interface to manage scripts:
-  <div align="center">
-    <pre><code>python MyPager.py</code></pre>
+  <div>
+    <pre><code class="language-bash">python MyPager.py</code></pre>
   </div>
 </details>
 
@@ -111,8 +108,8 @@
   <summary><strong>Click to expand</strong> 🚀</summary>
   <br>
   Run or install a script directly using command-line arguments:
-  <div align="center">
-    <pre><code>python MyPager.py [run|install] [script_name]</code></pre>
+  <div>
+    <pre><code class="language-bash">python MyPager.py [run|install] [script_name]</code></pre>
   </div>
 </details>
 
@@ -123,12 +120,12 @@
   <br>
   <ul>
     <li><strong>Run a script:</strong></li>
-    <div align="center">
-      <pre><code>python MyPager.py run script_name</code></pre>
+    <div>
+      <pre><code class="language-bash">python MyPager.py run script_name</code></pre>
     </div>
     <li><strong>Install a script:</strong></li>
-    <div align="center">
-      <pre><code>python MyPager.py install script_name</code></pre>
+    <div>
+      <pre><code class="language-bash">python MyPager.py install script_name</code></pre>
     </div>
   </ul>
 </details>
@@ -141,12 +138,12 @@
   Here are some examples to get you started:
   <ul>
     <li><strong>Running a Script:</strong></li>
-    <div align="center">
-      <pre><code>python MyPager.py run example_script</code></pre>
+    <div>
+      <pre><code class="language-bash">python MyPager.py run example_script</code></pre>
     </div>
     <li><strong>Installing a Script:</strong></li>
-    <div align="center">
-      <pre><code>python MyPager.py install example_script</code></pre>
+    <div>
+      <pre><code class="language-bash">python MyPager.py install example_script</code></pre>
     </div>
   </ul>
 </details>
@@ -178,4 +175,5 @@
 ---
 
 Made with 💖 and 🚀 by [Your Name](https://github.com/)
+
 
