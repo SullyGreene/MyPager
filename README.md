@@ -1,11 +1,7 @@
 # 📟 MyPager
 
 <div align="center">
-  <img src="logo.MyPager.webp" alt="MyPager Logo" style="border-radius:50%; width:150px; height:150px;">
-</div>
-
-<div align="center">
-  <h1>Welcome to MyPager!</h1>
+  <h1>Welcome to The Emoji📟 is now a Pager!!</h1>
   <p>A fun and functional Python CLI to run and install scripts. 🚀✨</p>
   <a href="https://github.com/SullyGreene/MyPager">
     <img src="https://img.shields.io/github/stars/SullyGreene/MyPager?style=social" alt="GitHub Stars">
