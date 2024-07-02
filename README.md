@@ -28,16 +28,25 @@
 
 ## Table of Contents
 
-- [About](#about)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Menu Mode](#menu-mode)
-  - [Direct Mode](#direct-mode)
-- [Commands](#commands)
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
+<details>
+  <summary><strong>Click to expand</strong> 📜</summary>
+  <br>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#usage">Usage</a>
+      <ul>
+        <li><a href="#menu-mode">Menu Mode</a></li>
+        <li><a href="#direct-mode">Direct Mode</a></li>
+      </ul>
+    </li>
+    <li><a href="#commands">Commands</a></li>
+    <li><a href="#examples">Examples</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+  </ul>
+</details>
 
 ## About
 
