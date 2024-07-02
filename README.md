@@ -32,6 +32,8 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+  - [Menu Mode](#menu-mode)
+  - [Direct Mode](#direct-mode)
 - [Commands](#commands)
 - [Examples](#examples)
 - [Contributing](#contributing)
@@ -47,6 +49,18 @@
   </p>
 </details>
 
+## Features
+
+<details>
+  <summary><strong>Click to expand</strong> 🌟</summary>
+  <br>
+  <ul>
+    <li><strong>Easy Script Management</strong>: Run and install scripts effortlessly. 🛠️</li>
+    <li><strong>Interactive CLI</strong>: User-friendly interface to manage your scripts. 💻</li>
+    <li><strong>Customizable</strong>: Easily extend and customize to fit your needs. 🎨</li>
+  </ul>
+</details>
+
 ## Installation
 
 <details>
@@ -56,114 +70,76 @@
   <ol>
     <li><strong>Clone the repository:</strong></li>
   </ol>
-  <pre>
-  <code>
+  <pre><code>
   git clone https://github.com/SullyGreene/MyPager.git
   cd MyPager
-  </code>
-  </pre>
+  </code></pre>
   <ol start="2">
     <li><strong>Install dependencies:</strong></li>
   </ol>
-  <pre>
-  <code>
+  <pre><code>
   pip install -r requirements.txt
   python run run/sys_check.py
-  </code>
-  </pre>
-</details>
-
-
-## Installation
-
-<details>
-  <summary>Click to expand</summary>
-  
-  To install MyPager, follow these steps:
-  
-  1. **Clone the repository:**
-  
-      ```sh
-      git clone https://github.com/SullyGreene/MyPager.git
-      cd MyPager
-      ```
-  
-  2. **Install dependencies:**
-  
-      ```sh
-      pip install -r requirements.txt
-      ```
-  
+  </code></pre>
 </details>
 
 ## Usage
 
-### 📟 MyPager CLI
+### Menu Mode
 
 <details>
-  <summary>Click to expand</summary>
-  
-  An interactive terminal interface to run and install scripts with ease. 🎉
-  
-  To start the CLI, use the following command:
-  
-  ```sh
-  python MyPagerCli.py
-  ```
-  
+  <summary><strong>Click to expand</strong> 🎉</summary>
+  <br>
+  Run the interactive terminal interface to manage scripts:
+  <div align="center">
+    <pre><code>python MyPager.py</code></pre>
+  </div>
 </details>
 
-### Running and Installing Scripts
+### Direct Mode
 
 <details>
-  <summary>Click to expand</summary>
-  
-  You can run or install scripts using the MyPager.py script with the following syntax:
-  
-  ```sh
-  python MyPager.py [run|install] [script_name]
-  ```
-  
+  <summary><strong>Click to expand</strong> 🚀</summary>
+  <br>
+  Run or install a script directly using command-line arguments:
+  <div align="center">
+    <pre><code>python MyPager.py [run|install] [script_name]</code></pre>
+  </div>
 </details>
 
 ## Commands
 
 <details>
-  <summary>Click to expand</summary>
-  
-  - **Run a script:**
-  
-      ```sh
-      python MyPager.py run script_name
-      ```
-  
-  - **Install a script:**
-  
-      ```sh
-      python MyPager.py install script_name
-      ```
-  
+  <summary><strong>Click to expand</strong> 🛠️</summary>
+  <br>
+  <ul>
+    <li><strong>Run a script:</strong></li>
+    <div align="center">
+      <pre><code>python MyPager.py run script_name</code></pre>
+    </div>
+    <li><strong>Install a script:</strong></li>
+    <div align="center">
+      <pre><code>python MyPager.py install script_name</code></pre>
+    </div>
+  </ul>
 </details>
 
 ## Examples
 
 <details>
-  <summary>Click to expand</summary>
-  
+  <summary><strong>Click to expand</strong> 📚</summary>
+  <br>
   Here are some examples to get you started:
-  
-  - **Running a Script:**
-  
-      ```sh
-      python MyPager.py run example_script
-      ```
-  
-  - **Installing a Script:**
-  
-      ```sh
-      python MyPager.py install example_script
-      ```
-  
+  <ul>
+    <li><strong>Running a Script:</strong></li>
+    <div align="center">
+      <pre><code>python MyPager.py run example_script</code></pre>
+    </div>
+    <li><strong>Installing a Script:</strong></li>
+    <div align="center">
+      <pre><code>python MyPager.py install example_script</code></pre>
+    </div>
+  </ul>
 </details>
 
 ## Contributing
@@ -191,3 +167,6 @@
 </details>
 
 ---
+
+Made with 💖 and 🚀 by [Your Name](https://github.com/)
+
